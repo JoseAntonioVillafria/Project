@@ -27,7 +27,7 @@
         app:layout_constraintVertical_bias="0.204" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/etEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -46,7 +46,7 @@
         app:layout_constraintVertical_bias="0.050000012" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/etPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -111,11 +111,12 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
+        android:onClick="displayUser"
         android:text="Enter Saved User Information"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        app:layout_constraintTop_toBottomOf="@+id/etPassword"
         app:layout_constraintVertical_bias="0.157" />
 
     <TextView
@@ -151,7 +152,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/etEmail"
         app:layout_constraintVertical_bias="0.105" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
